@@ -1,57 +1,71 @@
 public class OperatorsPart1{
-	
-	public static void main(String[] args){
-		//Assignment operators
+	public static void main(String[] args) {
+		//Assignment Operator
 		
 		int num = 100;
-		System.out.printf("Number is %dn",num");
+		System.out.printf("Number is %d%n",num);
 		
-		//Arithematic operator(+,-,*,/,%)
-		int num 1 = 50;
-		int num 2 = 200;
+		//Arithmetic operator(+,-,+,/,%)
+		int num1 = 123;
+		int num2 = 200;
 		
 		int addition = num1 + num2;
 		int subtraction = num1 - num2;
 		int multiplication = num1 * num2;
-		double division = (double)num1 / num2;
-		int remainder = num 1 % num2 ;
+	    double division = (double)num1 / num2;
+		int remainder = num1 % num2 ;
 		
-		//Compound Assignment operator(+=,-=,*=,/=,%=)
+		//Compound assignment operator(+=,-=,*=,/=,%=)
 		int number1 = 20;
 		int number2 = 2;
 		
-	
+		System.out.println("---------- Arithmetic output----------------");
 		
-		System.out.println("-----Arithmetic output-------------")
-		System.out.printf("%d + %d = %d",num1,num2,addition);
-		System.out.printf("%d - %d = %d",num1,num2,subtraction);
-		System.out.printf("%d * %d = %d"),num1,num2,multiplication);
+		System.out.printf("%d + %d = %d%n",num1,num2,addition);
+		System.out.printf("%d - %d = %d%n",num1,num2,subtraction);
+		System.out.printf("%d * %d = %d%n",num1,num2,multiplication);
 		System.out.printf("%d / %d = %.2f%n",num1,num2,division);
-		System,out.printf("%d % %d = %d%n", num1,num2,reminder);
-		System.out.println("-----------------------------------")
+		System.out.printf("%d %% %d = %d%n",num1,num2,remainder);
+		System.out.println("------------------------------------------------------------");
 		
-		System.out.println("-----------------Compound Assignment Output------------------");
-		System.out.printf("The value of number1 has been updated to %d%n",number1);
+		
+	    System.out.println("-----------------Compound Assignment Output--------------------");
 		number1 += number2;
+		System.out.printf("The value of number1 has been updated to %d%n",number1);
 		
-	    System.out.printf("The value of number1 has been updated to %d%n",number1);
 		number1 -= number2;
-		
 		System.out.printf("The value of number1 has been updated to %d%n",number1);
-		number1 *= number2;
-		
+	
+	    number1 *= number2;
 		System.out.printf("The value of number1 has been updated to %d%n",number1);
+		
 		number1 /= number2;
-		
 		System.out.printf("The value of number1 has been updated to %d%n",number1);
+		
 		number1 %= number2;
-		System.out.println("-----------------------------------")
-	}
-}
-		//Relational operator(> ,< , >=, <=, ==, !=)
+		System.out.printf("The value of number1 has been updated to %d%n",number1);
+		System.out.println("------------------------------------------------------");
+		
+		//Relational operator(>,<,>=,<=,==,!=)
 		int x = 90;
 		int y = 51;
 		
 		boolean isGreater = x > y;
-		System.out.println("-----------Relational Output-------------"); 
-		System.out.printf("Is %d > %d = %b%n	" )
+		boolean isLessThan = x > y;
+		boolean isGreaterorEqualTo = x >= y;
+		boolean isLessThanorEqualTo = x <= y;
+		boolean isEqualTo = x == y;
+		boolean notEqualTo = x != y;
+		
+		
+		 System.out.println("---------------------Relational Output-----------------------");
+		 System.out.printf("Is %d > %d = %b%n",x,y,isGreater);
+		 System.out.printf("Is %d < %d = %b%n",x,y,isLessThan);
+		 System.out.printf("Is %d >= %d = %b%n",x,y,isGreaterorEqualTo);
+		 System.out.printf("Is %d <= %d = %b%n",x,y,isLessThanorEqualTo);
+		 System.out.printf("Is %d == %d = %b%n",x,y,isEqualTo);
+		 System.out.printf("Is %d != %d = %b%n",x,y,notEqualTo);
+		 
+		 
+	}
+}
