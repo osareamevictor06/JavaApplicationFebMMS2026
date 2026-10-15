@@ -2,7 +2,8 @@ public class OperatorPart2{
 	public static void main(String[] args)
 	{
 		
-		int num1 = 50;
+		int
+		num1 = 50;
 		int num2 = 80;
 		int num3 = 30;
 		//AND

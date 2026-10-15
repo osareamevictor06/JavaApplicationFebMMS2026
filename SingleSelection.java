@@ -7,7 +7,7 @@ public class SingleSelection{
 		System.out.println("Oh wow , you are now an adult");
 	    }
 		
-		if(name.equals("Samuel")){
+		if(name.equals("Osas")){
 			System.out.println(name + " You are welcome");
 		}
     }
