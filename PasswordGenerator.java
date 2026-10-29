@@ -1,5 +1,5 @@
 import java.util.Random;
-
+//using the random class
 public class PasswordGenerator{
 	public static void main(String[] args){
 	Random rand = new Random();
