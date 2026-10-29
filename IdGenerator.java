@@ -3,13 +3,13 @@ import java.util.Random;
 
 public class IdGenerator{
 	public static void main(String[] args){
-	
+
 	Random random = new Random();
-	
+
 	int number = 10000 + random.nextInt(90000);
-	
+
 	String studentID = "STU" + number;
-	
+
 	System.out.println("StudentID: " + studentID);
 	}
 }
